@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1416752567 source:f:\moje dokumenty\aisdi\hash\asd.cc
+	<iostream>
+	"aisdihashmap.h"
+
+1416944325 f:\moje dokumenty\aisdi\hash\aisdihashmap.h
+	<utility>
+	<string>
+

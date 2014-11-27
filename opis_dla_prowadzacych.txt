@@ -1,0 +1,23 @@
+Lab 2
+
+Tablica haszujaca.
+
+Zadanie analogiczne do lab1, jednak zamiast listy lub pierscienie, 
+tu budowa slownika oparta jest o tablice haszujaca.
+
+Odmienny jest tez tryb pracy nad zadaniem:
+1. Nie ma pliku asd.cc - studenci moga zmieniac naglowek - dopisuwac operacje,
+   ale musi pozostac zdefiniowany interfejs (bedzie uzywany w testach).
+2. Rozwiazanie bedzie porownywane z szybkoscia implementacji std::map
+3. Implementacja funkcji hashujacej dla klucza typu std::string jest czescia zadania.
+3. Do testow bedzie uzywana wlasnie ta funkcje hashujaca dla klucza typu std::string.
+
+TESTOWANIE:
+1. test.cc - po przegraniu do swojego katalogu nalezy dostosowac tak, 
+   aby uzywal wlasciwej funkcji haszujacej i porownujacej.
+   Istnieje mozliwosc przelaczenia pomiedzy wlasna implementacja a std::map
+   poprzez zmiane "#if 1" na "#if 0" w linii 5. 
+2. budowac przy pomocy makefile_tests   
+
+powodzenia 
+Michal
